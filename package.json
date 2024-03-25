@@ -1,0 +1,30 @@
+{
+  "name": "chpback_test",
+  "version": "1.0.0",
+  "description": "This is a backend for testing...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "concurrently \"tsc -w\" \"ts-node-dev src/index.ts\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Manuel F. Borrego Sterling",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.30",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "morgan": "^1.10.0"
+  }
+}
